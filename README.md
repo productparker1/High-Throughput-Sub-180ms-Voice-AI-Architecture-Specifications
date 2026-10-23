@@ -16,6 +16,9 @@ Attempting to collapse this pipeline to match human conversational dynamics (~20
 * **Socket & Transport Lock Contention:** Cross-agent handoffs (e.g., Triage to Specialist) or channel transitions introduce state desynchronization, packet drops, or high re-prompting overhead.
 
 ---
+Sub-85ms (The Core Proxy / In-RAM Pipeline): This is the raw execution speed of the AVAS™ streaming proxy layer itself (the zero-copy memory buffers, audio packet chunking, and spectral noise filtering running locally in-RAM before hitting external inference APIs).
+
+Sub-180ms (The End-to-End Latency Target): This accounts for the total round-trip time (RTT)—including network transport, speech-to-text (STT) inference, model response generation, and text-to-speech (TTS) synthesis.
 
 ## Architectural Topology & Ingest Pipeline
 
