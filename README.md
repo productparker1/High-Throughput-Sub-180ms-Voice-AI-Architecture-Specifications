@@ -62,3 +62,10 @@ Mechanic: Evaluates partial intent confidence vectors every N frames. If confide
 Function: Manages atomic session state across micro-agent handoffs and multi-device transports.
 
 Mechanic: Serializes active variables, context buffers, and intent stacks into a lightweight, non-blocking memory store, enabling instant handoffs without context loss or socket re-initialization.
+---
+
+## License & Intellectual Property
+
+This repository and its technical specifications are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. 
+* **Prohibited:** Commercial implementation, production deployment, or redistribution for profit without an explicit agreement is strictly prohibited.
+* **Inquiries:** For commercial licensing or hiring inquiries, contact **mgmtparker@gmail.com**.
