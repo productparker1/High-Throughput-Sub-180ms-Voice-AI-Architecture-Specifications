@@ -68,4 +68,3 @@ Mechanic: Serializes active variables, context buffers, and intent stacks into a
 
 This repository and its technical specifications are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. 
 * **Prohibited:** Commercial implementation, production deployment, or redistribution for profit without an explicit agreement is strictly prohibited.
-* **Inquiries:** For commercial licensing or hiring inquiries, contact **mgmtparker@gmail.com**.
